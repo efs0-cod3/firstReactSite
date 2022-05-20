@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --bgColor: hsl(212, 45%, 89%);
+    --textColor: hsl(220, 15%, 55%);
+    --mainText: hsl(218, 44%, 22%);
+
+    --maxWidth: 1440px;
+    --minWidth: 375px;
+
+    --cardWidth: 322px;
+    --borderRadius: 15px;
+    --cardPadding: 16px;
+}
+
+body {
+    background: var(--bgColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    max-width: var(--cardWidth);
+    background-color: var(--White);
+    border-radius: var(--borderRadius);
+    padding: var(--cardPadding) 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, .1);
+}
+
+.qrImg {
+    max-width: 288px;
+    border-radius: var(--borderRadius);
+
+}
+
+.container {
+    text-align: center;
+    padding: 0 var(--cardPadding);
+
+
+}
+
+h1 {
+    font-size: 25px;
+    color: var(--mainText);
+}
+
+h1+p {
+    color: var(--textColor);
+}
+
+.attribution {
+    margin: 10px;
+    text-align: center;
+}
+
+.attribution p {
+    margin: 0;
+}
