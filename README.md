@@ -21,8 +21,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/efs0-cod3/firstReactSite)
-- Live Site URL: [Add live site URL here](https://efs0-cod3.github.io/firstReactSite/)
+- Solution URL: [repo](https://github.com/efs0-cod3/firstReactSite)
+- Live Site URL: [live site](https://efs0-cod3.github.io/firstReactSite/)
 
 ## My process
 
